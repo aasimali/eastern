@@ -1,0 +1,42 @@
+{
+    "todosTextField": {
+        "locatorType": "css",
+        "locator": ".new-todo"
+    },
+    "todoList": {
+        "locatorType": "css",
+        "locator": "input.toggle"
+    },
+    "todo": {
+        "locatorType": "css",
+        "locator": "(//input[@class='toggle'])[{count}]//following::label[1]"
+    },
+    "remove": {
+        "locatorType": "xpath",
+        "locator": "(//input[@class='toggle'])[1]//following::label[text()='{item}']//following::button[1]"
+    },
+    "itemName": {
+        "locatorType": "xpath",
+        "locator": "(//input[@class='toggle'])[1]//following::label[text()='{item}']"
+    },
+    "list": {
+        "locatorType": "css",
+        "locator": ".todo-list"
+    },
+    "radioButton": {
+        "locatorType": "xpath",
+        "locator": "(//input[@class='toggle'])[1]//following::label[text()='{radio}']//preceding::input[1]"
+    },
+    "clearCompleted": {
+        "locatorType": "css",
+        "locator": ".clear-completed"
+    },
+    "completed": {
+        "locatorType": "css",
+        "locator": ".selected"
+    },
+    "active": {
+        "locatorType": "xpath",
+        "locator": "//a[text()='Active']"
+    }
+}

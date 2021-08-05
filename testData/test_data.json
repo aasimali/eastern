@@ -1,0 +1,20 @@
+{
+    "todomvc": "https://todomvc.com/examples/react/#/",
+    "getAPI": {
+        "uri": "https://jsonplaceholder.typicode.com/todos/1",
+        "method": "GET",
+        "title": "delectus aut autem",
+        "status": 200,
+        "userId": 1,
+        "id": 1,
+        "completed": false
+    },
+    "postAPI": {
+        "uri": "https://jsonplaceholder.typicode.com/posts",
+        "method": "POST",
+        "title": "post call",
+        "body": "it is a post call body",
+        "userId": 1,
+        "id": 101
+    }
+}
